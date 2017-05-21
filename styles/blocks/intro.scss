@@ -1,0 +1,52 @@
+@import "../variables";
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 490px;
+  background-color: #fafafa;
+}
+
+.intro__header {
+  flex: 1;
+  margin: 0;
+  padding: 0 30px;
+
+  background-image: url('/img/header-background-mobile.jpg');
+  background-position-y: -20px;
+  background-color: #fafafa;
+  background-size: cover;
+}
+
+.intro__header-text {
+  position: relative;
+  top: 30px;
+  max-width: 450px;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.intro__links {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.intro__link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 100px;
+  padding: 0 30px;
+
+  &--interior {
+    background-color: #63d1bb;
+  }
+
+  &--toys {
+    background-color: #56c3b2;
+  }
+}

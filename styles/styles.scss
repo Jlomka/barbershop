@@ -1,8 +1,13 @@
 @import "normalize";
 
-@import "variables.scss";
-@import "mixins.scss";
+@import "variables";
+@import "mixins";
 
-@import "global/fonts.scss";
-@import "global/forms.scss";
-@import "global/layout.scss";
+@import "global/global";
+@import "global/a11y";
+@import "global/fonts";
+@import "global/forms";
+@import "global/layout";
+
+@import "blocks/header";
+@import "blocks/intro";
