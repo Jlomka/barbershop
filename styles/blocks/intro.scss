@@ -26,6 +26,7 @@
   max-width: 450px;
   font-size: 27px;
   font-weight: bold;
+  color: $color-text-bright;
 }
 
 .intro__links {
@@ -43,10 +44,10 @@
   padding: 0 30px;
 
   &--interior {
-    background-color: #63d1bb;
+    background-color: $color-accent;
   }
 
   &--toys {
-    background-color: #56c3b2;
+    background-color: $color-accent-darker;
   }
 }

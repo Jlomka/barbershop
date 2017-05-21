@@ -1,8 +1,26 @@
+@import "./variables";
+
 body, html {
   margin: 0;
   padding: 0;
 }
 
 body {
+  color: $color-text;
   background-color: white;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+
+  background-color: transparent;
+  outline: none;
+  border: 2px solid #444444;
+
+  cursor: pointer;
+  padding: 18px;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
