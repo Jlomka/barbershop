@@ -11,16 +11,31 @@ body {
 }
 
 .btn {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+  min-height: 50px;
+
+  text-align: center;
+  text-decoration: none;
+  color: $color-text;
 
   background-color: transparent;
   outline: none;
-  border: 2px solid #444444;
+  border: 2px solid $color-text;
 
   cursor: pointer;
-  padding: 18px;
   font-size: 17px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.divider {
+  height: 7px;
+  margin: 38px 0;
+  padding: 0;
+  background-image: url('/img/divider.png');
+  border: none;
+  outline: none;
 }
